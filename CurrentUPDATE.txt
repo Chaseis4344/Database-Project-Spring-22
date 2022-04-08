@@ -1,0 +1,29 @@
+/*
+UPDATE (CUSTOMER) SET (Driver_ID = &DID,Request_ID = &RID) where (Customer_ID = &CID), SELECT * from customer; --Reassign Customer to new driver
+update (CUSTOMER) set (Customer_FName = '&fname',Customer_LName = '&lname', Customer_Phone = '&Phone') where (Customer_ID = &CID);--Change customer info
+
+update (REQUEST) set (Driver_ID = &DID,Customer_ID = &CID,Depart_ID = &DEPID, Selection_ID= &SELID ) where (Request_ID = &RID); 
+update (REQUEST) set (Food = '&food',Price = &Price,Request_Date = '&DATE', Request_Time = '&TIMESTAMP') where (Request_ID = &REQID);
+
+update (REGIONAL_DEPARTMENT) set (Depart_Area = '&Area',Depart_Size = &Size ) where (Depart_ID = &DEPID); 
+update (REGIONAL_DEPARTMENT) set (Depart_Phone = '&Phone') where (Depart_ID = &DEPID);
+
+update (RESTAURANT) set (Resaurant_Address = '&Address', Resaurant_GPS = '&COORDS') where (Restaurant_ID = &RESID); --New Location 
+update (RESTAURANT) set (Restaurant_Phone = '&phone') where (Restaurant_ID = &RESID); -- New Number
+
+update (BCUSTOMER) set (Request_ID = &REQID ) where (Customer_ID = &CID); 
+update (BCUSTOMER) set (BCust_Name = '&name', BCust_Phone = '&phone') where (Customer_ID = &CID);
+*/
+update (DRIVER) 
+set (Depart_ID = &DEPID, Request_ID = &REQID ) 
+where (Driver_ID = &DRID); 
+/*
+update (DRIVER) set (Driver_VIN = '&VIN',Driver_Color = '&color', Driver_Make = '&make', Driver_Model = '&Model') where (Driver_ID = &DRID);
+
+update (SELECTION) set (Menu_ID = &MEID,Request_ID =&RID ) where Selection_ID = &SELID; 
+update (SELECTION) set (Restaurant_ID = &RESID) where Selection_ID = &SELID;
+
+update MENU set (Restaurant_ID = &RESID ) where MENU_ID = &MEID; 
+update MENU set (Items = '&Items', Prices = &prices) where Menu_ID = &MEID;
+
+*/
