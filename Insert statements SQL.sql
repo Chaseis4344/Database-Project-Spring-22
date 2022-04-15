@@ -157,4 +157,4 @@ values (3, 3,  3, 3);
 insert into SELECTION 
 values (4, 4, 4, 4);
 insert into SELECTION 
-values (5, 5, 5, 5);
+values (5, 3, 3, 3);
