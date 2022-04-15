@@ -61,19 +61,19 @@ values (5, 5, 'hamburger and fries, Grilled Chicken Sandwich, Nachos, Chicken nu
 
 
 insert into REQUEST
-values (1, 1,1,1  , 'Hamburger and fries',7.99 , '20-MAR-2022', '03-20-2022 12:22:22');
+values (1, 1,1,1  , 'Hamburger and fries',7.99 , '20-MAR-2022', '20-MAR-2022 12:22:22');
 
 insert into REQUEST
-values (2, 2, 2 ,2 , 'Grilled Chicken Sandwich', 5.99, '21-MAR-2022', '03-21-2022 13:09:23');
+values (2, 2, 2 ,2 , 'Grilled Chicken Sandwich', 5.99, '21-MAR-2022', '21-MAR-2022 10:09:23');
 
 insert into REQUEST
-values (3, 3, 3, 3, 'Spicy Chicken Sandwich', 4.99, '01-FEB-2022', '02-01-2022 20:00:33');
+values (3, 3, 3, 3, 'Spicy Chicken Sandwich', 4.99, '01-FEB-2022', '01-FEB-2022 11:00:33');
 
 insert into REQUEST
-values (4, 4, 4 , 4, 'Nachos', 8.99, '01-JAN-2022', '01-01-2022 11:24:43');
+values (4, 4, 4 , 4, 'Nachos', 8.99, '01-JAN-2022', '01-JAN-2022 11:24:43');
 
 insert into REQUEST
-values (5, 5, 5, 5, 'Chicken nuggets', 8.99, '02-APR-2022',  '04-02-2022 14:01:11' );
+values (5, 5, 5, 5, 'Chicken nuggets', 8.99, '02-APR-2022',  '02-APR-2022 14:01:11' );
 
 
 
