@@ -19,8 +19,8 @@ where Driver_ID = 100000105;
 
 update   DRIVER  set   Driver_VIN = 'GJ9SWFRGJSGGTSCB',Driver_Color = 'White', Driver_Make = 'Toyota', Driver_Model = 'Corolla'  where   Driver_ID = 100000105 ;
 
-update SELECTION set Menu_ID = &MEID,Request_ID =&RID  where Selection_ID = 400000000000106; 
-update SELECTION set Restaurant_ID = &RESID where Selection_ID = 400000000000106;
+update SELECTION set Menu_ID = 80000000006 ,Request_ID =20000000002023  where Selection_ID = 400000000000106; 
+update SELECTION set Restaurant_ID = 20000000002023 where Selection_ID = 400000000000106;
 
 update MENU set Restaurant_ID = 700000005  where MENU_ID = 80000000006; 
 update MENU set Items = 'Burger, Taco, Sandwich', Prices = '3.99, 8.99, 7.99' where Menu_ID = 80000000006;
