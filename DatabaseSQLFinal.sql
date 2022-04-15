@@ -36,9 +36,9 @@ create table RESTAURANT(
 );
 
 create table BCUSTOMER( 
-        Customer_ID number, 
-        BCust_Name varchar(40), 
+        Customer_ID number,   
         Request_ID  number, 
+        BCust_Name varchar(40), 
         BCust_Phone char(17), 
             constraint pk_BCust_ID primary key (Customer_ID), 
             constraint fk_Req_ID_BCust foreign key (Request_ID) references REQUEST(Request_ID) 
