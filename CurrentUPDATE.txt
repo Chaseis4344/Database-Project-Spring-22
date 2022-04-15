@@ -1,27 +1,27 @@
 
-UPDATE CUSTOMER SET Driver_ID = &DID,Request_ID = &RID where Customer_ID = &CID; --Reassign Customer to new driver
-update CUSTOMER set Customer_FName = '&fname',Customer_LName = '&lname', Customer_Phone = '&Phone' where Customer_ID = &CID;--Change customer info
+UPDATE CUSTOMER SET Driver_ID = 100000105,Request_ID = 20000000002023 where Customer_ID = 3000005; --Reassign Customer to new driver
+update CUSTOMER set Customer_FName = 'Darius',Customer_LName = 'Sawyer', Customer_Phone = '+01(321)-720-4368' where Customer_ID = 3000005;--Change customer info
 
-update REQUEST set Driver_ID = &DID,Customer_ID = &CID,Depart_ID = &DEPID, Selection_ID= &SELID  where Request_ID = &RID; 
-update REQUEST set Food = '&food',Price = &Price,Request_Date = '&DATE', Request_Time = '&TIMESTAMP' where Request_ID = &REQID ;
+update REQUEST set Driver_ID =  100000105,Customer_ID = 3000005,Depart_ID = 500000000000015, Selection_ID= 400000000000105  where Request_ID = 20000000002023; 
+update REQUEST set Food = 'nacho',Price = 4.00,Request_Date = '24-MAR-2022', Request_Time = '03-24-2022 12:35:20' where Request_ID = 20000000002023 ;
 
-update REGIONAL_DEPARTMENT set   Depart_Area = '&Area',Depart_Size = &Size   where   Depart_ID = &DEPID ; 
-update REGIONAL_DEPARTMENT set   Depart_Phone = '&Phone'  where   Depart_ID = &DEPID ;
+update REGIONAL_DEPARTMENT set   Depart_Area = 'Lakeland',Depart_Size = 5   where   Depart_ID = 500000000000015 ; 
+update REGIONAL_DEPARTMENT set   Depart_Phone = '+01(321)-999-8888'  where   Depart_ID =  500000000000015 ;
 
-update RESTAURANT set   Resaurant_Address = '&Address', Resaurant_GPS = '&COORDS'  where   Restaurant_ID = &RESID ; --New Location 
-update RESTAURANT set   Restaurant_Phone = '&phone'  where   Restaurant_ID = &RESID ; -- New Number
+update RESTAURANT set   Resaurant_Address ='230 Arteva Dr, Lakeland, FL 33809', Resaurant_GPS = '20.70, 44.34'  where   Restaurant_ID = 700000005; --New Location 
+update RESTAURANT set   Restaurant_Phone = '+01(863)-888-2586'  where   Restaurant_ID = 700000005 ; -- New Number
 
-update BCUSTOMER set   Request_ID = &REQID   where   Customer_ID = &CID ; 
-update BCUSTOMER set   BCust_Name = '&name', BCust_Phone = '&phone'  where   Customer_ID = &CID ;
+update BCUSTOMER set   Request_ID = 20000000002023   where   Customer_ID = 3000005 ; 
+update BCUSTOMER set   BCust_Name = 'Jesse Richards', BCust_Phone = '+01(321)-999-8888'  where   Customer_ID = 3000005 ;
 update DRIVER 
-set Depart_ID = &DEPID, Request_ID = &REQID 
-where Driver_ID = &DRID; 
+set Depart_ID =  500000000000015, Request_ID = 20000000002023 
+where Driver_ID = 100000105; 
 
-update   DRIVER  set   Driver_VIN = '&VIN',Driver_Color = '&color', Driver_Make = '&make', Driver_Model = '&Model'  where   Driver_ID = &DRID ;
+update   DRIVER  set   Driver_VIN = 'GJ9SWFRGJSGGTSCB',Driver_Color = 'White', Driver_Make = 'Toyota', Driver_Model = 'Corolla'  where   Driver_ID = 100000105 ;
 
-update SELECTION set Menu_ID = &MEID,Request_ID =&RID  where Selection_ID = &SELID; 
-update SELECTION set Restaurant_ID = &RESID where Selection_ID = &SELID;
+update SELECTION set Menu_ID = &MEID,Request_ID =&RID  where Selection_ID = 400000000000106; 
+update SELECTION set Restaurant_ID = &RESID where Selection_ID = 400000000000106;
 
-update MENU set Restaurant_ID = &RESID  where MENU_ID = &MEID; 
-update MENU set Items = '&Items', Prices = &prices where Menu_ID = &MEID;
+update MENU set Restaurant_ID = 700000005  where MENU_ID = 80000000006; 
+update MENU set Items = 'Burger, Taco, Sandwich', Prices = '3.99, 8.99, 7.99' where Menu_ID = 80000000006;
 
