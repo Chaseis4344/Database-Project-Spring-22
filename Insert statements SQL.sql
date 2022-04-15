@@ -73,7 +73,7 @@ insert into REQUEST
 values (4, 4, 4 , 4, 'Nachos', 8.99, '01-JAN-2022', '01-JAN-2022 11:24:43');
 
 insert into REQUEST
-values (5, 5, 5, 5, 'Chicken nuggets', 8.99, '02-APR-2022',  '02-APR-2022 14:01:11' );
+values (5, 5, 5, 5, 'Chicken nuggets', 8.99, '02-APR-2022',  '02-APR-2022 12:01:11' );
 
 
 
@@ -94,7 +94,7 @@ values (4, 4, 4, 'Marshal', 'Tobias', '+01(954)-652-6363');
 
 
 insert into CUSTOMER 
-values (5, 5 , 5, 'Alissa', 'Sumner', '+01(780)-421-8776');
+values (5, 4 , 4, 'Alissa', 'Sumner', '+01(780)-421-8776');
 
 
 
@@ -113,7 +113,7 @@ insert into BCUSTOMER
 values (3, 3, 'Marianna Tennyson' , '+01(727)-438-9988' );
 
 insert into BCUSTOMER 
-values (4, 4, 'Brenden Norton', '+01(941)-3255-4312');
+values (4,3, 'Brenden Norton', '+01(941)-325-4312');
 
 insert into BCUSTOMER
 values (5, 5, 'Kyro Stephens', '+01(305)-532-8764');
