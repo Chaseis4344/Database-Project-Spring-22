@@ -61,7 +61,7 @@ values (80000000005, 700000004, 'hamburger and fries, Grilled Chicken Sandwich, 
 
 
 insert into REQUEST
-values (20000000002018, 3000000, 500000000000010, 400000000000100  , 'Hamburger and fries', '20-MAR-2022', '03-20-2022 12:22:22');
+values (20000000002018, 3000000, 500000000000010, 400000000000100  , 'Hamburger and fries',7.99 , '20-MAR-2022', '03-20-2022 12:22:22');
 
 insert into REQUEST
 values (20000000002019, 3000001, 500000000000011 , 400000000000101, 'Grilled Chicken Sandwich', 5.99, '21-MAR-2022', '03-21-2022 13:09:23');
