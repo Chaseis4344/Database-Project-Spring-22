@@ -2,7 +2,7 @@
 UPDATE CUSTOMER SET Driver_ID = 41,Request_ID = 13 where Customer_ID = 22; 
 update CUSTOMER set Customer_FName = 'Darius',Customer_LName = 'Sawyer', Customer_Phone = '+01(321)-720-4368' where Customer_ID = 22;
 
-update REQUEST set Driver_ID =  41,Customer_ID = 22,Depart_ID = 500000000000014, Selection_ID= 51  where Request_ID = 13; 
+update REQUEST set Customer_ID = 22,Depart_ID = 500000000000014, Selection_ID= 51  where Request_ID = 13; 
 update REQUEST set Food = 'nacho',Price = 4.00,Request_Date = '24-MAR-2022', Request_Time = '03-MAR-2022 12:35:20' where Request_ID = 13 ;
 
 update REGIONAL_DEPARTMENT set   Depart_Area = 'Lakeland',Depart_Size = 5   where   Depart_ID = 500000000000014; 
