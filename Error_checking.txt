@@ -1,0 +1,11 @@
+-- Not Null
+insert into REGIONAL_DEPARTMENT
+values (null, 'Lakeland', 19, '+01(954)-652-6355');
+-- Unique Value
+insert into REGIONAL_DEPARTMENT
+values (500000000000013, 'Lakeland', 32, '+01(780)-299-3884');
+
+insert into REGIONAL_DEPARTMENT
+values (500000000000013, 'Lakeland', 32, '+01(780)-299-3884');
+
+--Check Constraint
