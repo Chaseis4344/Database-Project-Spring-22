@@ -133,10 +133,10 @@ insert into DRIVER
 values (3, 3, 500000000000012, 'RE9HDUFKLHJAWAFRC', 'White', 'Stelantis', 'Jeep');
 
 insert into DRIVER 
-values (4, 4, 500000000000013, 'TY9JFSXMNGDKLTYSHR', 'Red', 'Hondar Motor Co.', 'Honda');
+values (4, 4, 500000000000013, 'TY9JFXMNGDKLTYSHR', 'Red', 'Hondar Motor Co.', 'Honda');
 
 insert into DRIVER 
-values (5, 5, 500000000000014, 'YR9HKPXHRWURWHWXS', 'Red', 'Ford Motor Co.', 'Ford');
+values (5, 3, 500000000000014, 'YR9HKPXHRWURWHWXS', 'Red', 'Ford Motor Co.', 'Ford');
 
 
 
