@@ -23,7 +23,7 @@ create table REGIONAL_DEPARTMENT(
     Depart_Size     number,   
     Depart_Phone    char(17),   
         constraint pk_Depart_ID primary key (Depart_ID)   ,
-        constraint Depart_ID_Range check (Depart_ID >=50000000000001 and Depart_ID<= 99999999999999 )
+        constraint Depart_ID_Range check (Depart_ID >=500000001 and Depart_ID<= 9999999999999999999999999 )
    
 );
 
